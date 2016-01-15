@@ -1,0 +1,10 @@
+source code for DRPS calculations in
+Dynamical properties of two- and three-dimensional colloidal clusters
+by B. Fačkovec and J. W. R. Morgan and D. J. Wale
+
+published in ...
+
+files:
+
+langevin.m ... Langevin integrator used for MD propagation
+wcell.m ... cell identification for 2D clusters
