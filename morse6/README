@@ -4,7 +4,16 @@ by B. Fačkovec and J. W. R. Morgan and D. J. Wale
 
 published in ...
 
-files:
+directories:
 
-langevin.m ... Langevin integrator used for MD propagation
-wcell.m ... cell identification for 2D clusters
+2D ... data for 2D Morse cluster
+3D ... data for 3D Morse cluster
+
+subdirectories
+
+DRPS ... files for solving the linear algebraic system of equations for discrete relaxation path sampling
+KMC ... kinetic Monte Carlo on rate matrices
+MD ... molecular dynamics propagation constrained to a cell
+PTMC ... parallel tempering Monte Carlocc
+structures ... scripts for structure identification
+TST ... files for transition state theory calculation
